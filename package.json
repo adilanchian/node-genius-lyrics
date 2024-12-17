@@ -1,6 +1,6 @@
 {
-    "name": "genius-lyrics",
-    "version": "4.4.7",
+    "name": "@adilanchian/genius-lyrics",
+    "version": "1.0.0",
     "description": "Fetches Lyrics from Genius at Ease.",
     "main": "./dist/index.js",
     "files": [
@@ -19,6 +19,8 @@
     },
     "homepage": "https://genius-lyrics.js.org",
     "dependencies": {
+        "axios": "^1.7.9",
+        "cheerio": "^1.0.0",
         "node-html-parser": "^6.1.13",
         "undici": "^6.11.1"
     },
